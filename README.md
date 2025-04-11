@@ -1,4 +1,4 @@
-# Data-analysis-project
+# chocolate-analysis-project
 I developed a project by using Sql and Power BI ,creating report and tables to analyze the data. This process involved several stages ,including data pre processing ,data cleaning, and data visualization 
 
 This project analyzes chocolate sales data using SQL for data preprocessing and Power BI for visualization. The dataset consists of four tables:
