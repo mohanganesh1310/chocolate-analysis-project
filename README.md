@@ -1,18 +1,21 @@
 # chocolate-analysis-project
-I developed a project by using Sql and Power BI ,creating report and tables to analyze the data. This process involved several stages ,including data pre processing ,data cleaning, and data visualization 
+Analyzed chocolate sales data from multiple countries using SQL for data preprocessing and Power BI for visualization.
+Worked with four key tables to generate valuable insights:
+Sales: Transaction records with amounts, boxes, and salesperson IDs.
+People: Salesperson details such as name and team.
+Products: Product details for each sale.
+Geo: Geographic information for sales, helping to track regional performance.
 
-This project analyzes chocolate sales data using SQL for data preprocessing and Power BI for visualization. The dataset consists of four tables:
+# Key Responsibilities & Achievements:
+Data Preprocessing: Cleaned and transformed data using SQL queries for better analysis, including joining multiple tables to provide insights on sales trends, geography, and product-wise performance.
+Advanced SQL Queries: Created complex SQL queries to analyze sales amounts, filter high-value sales, track sales trends over time, and perform regional and salesperson-based analysis.
+DAX and Power BI Dashboards: Developed interactive Power BI dashboards using DAX for advanced data analysis, including metrics like total sales, performance by salesperson, geographical sales distribution, and LBS% (Loss Before Sale) analysis.
+Key Metrics: Total Sales: $1.99M, Total Boxes Sold: 131K, Shipment Count: 352, LBS%: 10.5%.
 
-sales  - Transaction records with amounts, boxes, and salesperson IDs
-people - Salesperson details like name and team
-products  - Product details for each sale
-geo  - Geographic information for sales
-
-The goal is to clean, transform, and visualize data to generate insights like:
-1.Total Sales & Performance by Salesperson
-2.Sales Trends Over Time
-3.Geographical Sales Distribution
-4.LBS% (Loss Before Sale) Analysis.
+# Visuals Created:
+Sales by Geography (highlighting India as the top performer with $0.39M in sales).
+Sales Trends over time (fluctuations from $306K to $442K).
+Top Salespersons (analyzed sales and box contributions).
 
 SQL Queries Used
 SELECT * FROM sales;
@@ -124,14 +127,3 @@ ORDER BY YEAR(s.SaleDate), MONTH(s.SaleDate);
 
 
 
- Key Metrics:
-1.Total Sales: $1.99M
-2.Total Boxes Sold: 131K
-3.Shipment Count: 352
-4.LBS%: 10.5%
-
-Visuals Created:
-
-Sales by Geography (India leads with $0.39M)
-Sales Trends (Fluctuations from $306K to $442K)
-Top Salespersons (Sales & Box Contribution %)
